@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Profile</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+<!-- PAGE WRAPPER -->
+<div class="profile-shell">
+
+  <!-- ================= NAVBAR ================= -->
+  <div class="navbar glass">
+    <div class="nav-left">
+      <div class="logo">ApniDukaan</div>
+      <div class="nav-link">Shop</div>
+      <div class="nav-link">Orders</div>
+      <div class="nav-link nav-active">Profile</div>
+    </div>
+    <div class="nav-right">
+      <div class="cart-button">Cart</div>
+    </div>
+  </div>
+
+  <div class="divider-glow"></div>
+
+
+  <!-- ================= PAGE TITLE ================= -->
+  <div class="profile-title">Your Profile</div>
+
+
+  <!-- ================= GRID LAYOUT ================= -->
+  <div class="profile-grid">
+
+    <!-- ========== USER INFORMATION ========== -->
+    <div class="profile-card glass">
+      <div class="profile-header">
+        <div class="avatar"></div>
+        <div class="profile-info">
+          <div class="profile-name">Aryan Malik</div>
+          <div class="profile-email">aryan@example.com</div>
+          <div class="profile-phone">+91 98765 43210</div>
+        </div>
+      </div>
+
+      <button class="btn-edit">Edit Profile</button>
+    </div>
+
+
+
+    <!-- ========== ADDRESS SECTION ========== -->
+    <div class="profile-card glass">
+      <div class="section-title">Your Addresses</div>
+
+      <div class="address-block">
+        <div class="address-title">Default Address</div>
+        <div class="address-text">
+          Aryan Malik<br>
+          221B Baker Street<br>
+          Bengaluru, Karnataka 560001<br>
+          India
+        </div>
+      </div>
+
+      <div class="address-block">
+        <div class="address-title">Work Address</div>
+        <div class="address-text">
+          Tech Park, Floor 3<br>
+          Electronic City Phase-1<br>
+          Bengaluru
+        </div>
+      </div>
+
+      <button class="btn-small">Add New Address</button>
+    </div>
+
+
+
+    <!-- ========== RECENT ORDERS (MINI LIST) ========== -->
+    <div class="profile-card glass">
+      <div class="section-title">Recent Orders</div>
+
+      <div class="mini-order">
+        <div>
+          <div class="mini-order-id">Order #1001</div>
+          <div class="mini-order-date">Nov 22</div>
+        </div>
+        <div class="mini-order-status completed">Delivered</div>
+        <div class="mini-order-total">₹2,897</div>
+      </div>
+
+      <div class="mini-order">
+        <div>
+          <div class="mini-order-id">Order #1002</div>
+          <div class="mini-order-date">Nov 23</div>
+        </div>
+        <div class="mini-order-status pending">Pending</div>
+        <div class="mini-order-total">₹2,098</div>
+      </div>
+
+      <button class="btn-small">View All Orders</button>
+    </div>
+
+
+
+    <!-- ========== ACCOUNT SETTINGS ========== -->
+    <div class="profile-card glass">
+      <div class="section-title">Account Settings</div>
+
+      <div class="settings-row">
+        <div>Change Password</div>
+        <button class="btn-ghost">Update</button>
+      </div>
+
+      <div class="settings-row">
+        <div>Email Notifications</div>
+        <button class="btn-ghost">Manage</button>
+      </div>
+
+      <div class="settings-row danger-zone">
+        <div>Delete Account</div>
+        <button class="btn-danger">Delete</button>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

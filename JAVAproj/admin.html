@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<div class="admin-shell">
+
+  <!-- ==================== NAVBAR ==================== -->
+  <div class="admin-navbar">
+    <div class="admin-logo">ApniDukaan Admin</div>
+
+    <div class="admin-links">
+      <div class="admin-link admin-active">Dashboard</div>
+      <div class="admin-link">Products</div>
+      <div class="admin-link">Orders</div>
+      <div class="admin-link">Users</div>
+      <div class="admin-link">Settings</div>
+    </div>
+
+    <button class="admin-logout">Logout</button>
+  </div>
+
+
+  <!-- ================== GLOW DIVIDER ================== -->
+  <div class="divider-glow"></div>
+
+
+  <!-- ================= DASHBOARD MAIN AREA ================= -->
+  <div class="admin-content">
+
+    <!-- ======= STAT CARDS ======= -->
+    <div class="stats-grid">
+
+      <div class="stat-card glass">
+        <div class="stat-title">Total Sales</div>
+        <div class="stat-value">₹1,24,500</div>
+      </div>
+
+      <div class="stat-card glass">
+        <div class="stat-title">Orders</div>
+        <div class="stat-value">320</div>
+      </div>
+
+      <div class="stat-card glass">
+        <div class="stat-title">Users</div>
+        <div class="stat-value">1,245</div>
+      </div>
+
+      <div class="stat-card glass">
+        <div class="stat-title">Products</div>
+        <div class="stat-value">42</div>
+      </div>
+
+    </div>
+
+
+    <!-- ========== CHART ========== -->
+    <div class="chart-card glass">
+      <div class="chart-title">Sales Overview</div>
+      <div class="chart-placeholder">
+        <div class="chart-line"></div>
+        <div class="chart-line"></div>
+        <div class="chart-line"></div>
+      
+        <svg class="chart-graph" viewBox="0 0 300 100">
+          <polyline 
+            fill="none" 
+            stroke="#61E4F8" 
+            stroke-width="3"
+            points="0,80 40,60 80,75 120,35 160,50 200,40 50"
+          />
+        </svg>
+      </div>
+      
+    </div>
+
+
+    <!-- ========== RECENT ORDERS TABLE ========== -->
+    <div class="orders-card glass">
+      <div class="orders-title">Recent Orders</div>
+
+      <table class="orders-table">
+        <tr>
+          <th>Order ID</th>
+          <th>Customer</th>
+          <th>Total</th>
+          <th>Status</th>
+          <th>Date</th>
+        </tr>
+
+        <tr>
+          <td>#1001</td>
+          <td>Rohit Sharma</td>
+          <td>₹2,499</td>
+          <td><span class="status completed">Completed</span></td>
+          <td>Nov 22</td>
+        </tr>
+
+        <tr>
+          <td>#1002</td>
+          <td>Aryan Malik</td>
+          <td>₹1,199</td>
+          <td><span class="status pending">Pending</span></td>
+          <td>Nov 23</td>
+        </tr>
+
+        <tr>
+          <td>#1003</td>
+          <td>Priya Verma</td>
+          <td>₹999</td>
+          <td><span class="status processing">Processing</span></td>
+          <td>Nov 24</td>
+        </tr>
+
+      </table>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
