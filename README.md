@@ -2,11 +2,42 @@
 
 A complete Spring Boot REST API for an e-commerce platform featuring:
 
-- User authentication & management  
+- User authentication & JWT authorization  
 - Product catalog with categories  
 - Shopping cart functionality  
 - Order processing & checkout  
 - Product reviews & ratings  
+- Clean RESTful controllers, services, DTOs  
+- Fully testable using Postman  
+
+---
+
+# 👥 Team Members & Contributions
+
+### **Ayush Patel**
+- Entities  
+- Database design  
+- Postman testing  
+
+### **Naman Jindal**
+- Services Layer  
+- Controllers  
+
+### **Kabir Ahuja**
+- Controllers  
+- Services  
+- Postman Testing  
+
+### **Tanmay Dixit**
+- DTOs (Data Transfer Objects)  
+
+### **Sachin Singh Nain**
+- JWT Authorization  
+- Security configuration  
+
+### **Aryan Malik**
+- Frontend (HTML/CSS)  
+- JWT Authorization Integration  
 
 ---
 
@@ -21,13 +52,10 @@ A complete Spring Boot REST API for an e-commerce platform featuring:
 
 ---
 
-## 🚀 Quick Start (3 Steps)
+# 🚀 Quick Start (Commands to Copy–Paste)
 
-### **Step 1: Start Application**
+### **1. Clone the Repository**
 
 ```bash
-# In IntelliJ:
-Right-click PrototypeApplication.java → Run
-
-# OR via Terminal:
-./mvnw spring-boot:run
+git clone https://github.com/your-repo/ecommerce-api.git
+cd ecommerce-api
